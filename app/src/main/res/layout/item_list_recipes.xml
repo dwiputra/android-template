@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+	<!-- using network image view from volley library -->
+	<com.android.volley.toolbox.NetworkImageView
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:scaleType="centerCrop"
+		android:id="@+id/volleyimageView"/>
+
+	<!-- using shape at drawable to make gradient effect -->
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dp"
+		android:layout_alignBottom="@+id/volleyimageView"
+		android:background="@drawable/shape_gradient_black_up">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@android:color/white"
+			android:textSize="20dp"
+			android:textStyle="bold"
+			android:text="Title"
+			android:id="@+id/textViewTitle"
+			android:paddingTop="35dp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@android:color/white"
+			android:text="Publiser"
+			android:id="@+id/textViewPublisher"/>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right|bottom">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@android:color/white"
+				android:text="Rating "/>
+
+			<!-- using shape at drawable to make raounded effect -->
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@android:color/white"
+				android:text="rating"
+				android:background="@drawable/shape_raounded_red"
+				android:id="@+id/textViewSocialRank"/>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

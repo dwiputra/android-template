@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/RizaFu/wokrspace/GitHub/LetsCook/app/build/intermediates/pre-dexed/debug/volley-1a9fd404e98d322fdd304cc723ac5f3a474d7a70.jar"
+        jar="/Users/RizaFu/wokrspace/GitHub/LetsCook/app/libs/volley.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c"/>
+    <item
+        dex="/Users/RizaFu/wokrspace/GitHub/LetsCook/app/build/intermediates/pre-dexed/debug/butterknife-5.1.2-89f2ee2431df2120101ae8de2980257a82f28e82.jar"
+        jar="/Users/RizaFu/wokrspace/GitHub/LetsCook/app/libs/butterknife-5.1.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="daf5472b0df6dabaceb6ad755b3812535863965a"/>
+    <item
+        dex="/Users/RizaFu/wokrspace/GitHub/LetsCook/app/build/intermediates/pre-dexed/debug/gson-2.2.4-a26ffbf097edc683dc9bc4eecb2073b347db1b5b.jar"
+        jar="/Users/RizaFu/wokrspace/GitHub/LetsCook/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+
+</pre-dex-items>

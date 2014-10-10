@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@+id/buttonViewOn">
+		<LinearLayout
+			android:id="@+id/layoutIngredients"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<!-- include layout from item_list_recipes,
+			this efficient way to make same layour -->
+			<include
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				layout="@layout/item_list_recipes"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"
+				android:text="Ingredients"
+				android:textSize="20dp"
+				android:textStyle="bold"
+				android:gravity="center"/>
+
+		</LinearLayout>
+	</ScrollView>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:text="View On"
+		android:textStyle="bold"
+		android:textColor="@android:color/white"
+		android:background="@drawable/selector_button_blue"
+		android:id="@+id/buttonViewOn"/>
+
+	<!-- include layout from item_list_recipes,
+	this efficient way to make same layour -->
+	<include
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		layout="@layout/loading_error"/>
+
+</RelativeLayout>
